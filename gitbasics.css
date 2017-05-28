@@ -10,9 +10,202 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: sans-serif;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 /***************************************************/
 /*               Header                            */
 /***************************************************/
+#mainbody{
+    background-color: #dddfd3;
+    height: 1000px;
+    width: 970px;
+    padding: 15px;
+}
+#gitbasics{
+    background-color: #39b0ac;
+    height: 70px; 
+    width: 940px;
+}
+#gitbasics h1{
+    display: inline-block;
+    margin-top: 20px;
+}
+#gitbasics img{
+    height: 50px;
+    width: 50px;
+    margin: -10px 5px 5px 5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#gitbasics nav{
+    display: inline-block;
+    position: relative;
+    top: -10px;
+}
+#gitbasics ul{
+    list-style: none;
+    display: inline-block;
+    margin-left: 100px;
+}
+#gitbasics li{
+    display:inline-block;
+    font-size: .8em;
+    padding: 10px;
+    color: white;
+    text-decoration: underline;
+}
+
+/***************************************************/
+/*           Main Section                          */
+/***************************************************/
+
+#mainsection{
+    height: 600px;
+    width: 910px;
+    background-color: #c9d2a7; 
+    margin-top: 15px;
+    padding: 15px;
+    display: block;
+}
+#mainsection article{
+    color: #b1ccdc;
+/*    background-color: #114d69;*/
+}
+#mainsection section{
+    display: inline-block;
+}
+
+/***************************************************/
+/*        Two columns for the articles             */
+/*        Three rows for the articles             */
+/***************************************************/
+
+#articlecolumn1{
+    display: inline-block;
+    height: 600px;
+    width: 250px;
+}
+#articlecolumn2{
+    display: inline-block;
+    height: 600px;
+    width: 600px;
+}
+#articlerow0{
+    display: inline-block;
+}
+#articlerow1{
+    height: 200px;
+    display: inline-block;
+}
+#articlerow2{
+    height: 200px;
+    display: inline-block;
+}
+#articlerow3{
+    height: 200px;
+    display: inline-block;
+    
+}
+
+/***************************************************/
+/*        Articles Row 0 (what is this)            */
+/***************************************************/
+
+#whatisgit{
+    Height: 350px; 
+    width: 250px;
+    background-color: #114d69;
+}
+#whatisgithub{
+    height: 250px;
+    width: 250px;
+    background-color: #114d69;
+}
+
+/***************************************************/
+/*        Articles Row 1 (init, add, status        */
+/***************************************************/
+
+
+#gitinit{
+    height: 200px;
+    width: 175px;
+    background-color: blue;
+    display: inline-block;
+}
+#gitadd{
+    height: 200px;
+    width: 175px;
+    background-color: green;
+    display: inline-block;
+}
+#gitstatus{
+    height: 200px;
+    width: 175px;
+    background-color: black;
+    display: inline-block;
+}
+
+/***************************************************/
+/*        Articles Row 2 (commit, remote add)      */
+/***************************************************/
+
+#gitcommit{
+    height: 200px;
+    width: 225px;
+    background-color: purple;
+    display: inline-block;
+    
+}
+#gitremoteadd{
+    height: 200px;
+    width: 225px;
+    background-color: pink;
+    display: inline-block;
+    
+}
+
+/***************************************************/
+/*        Articles Row 3 (push)                    */
+/***************************************************/
+
+
+
+#gitpush{
+    height: 200px;
+    width: 300px;
+    background-color: orange;
+    display: inline-block;
+    
+}
+
+/***************************************************/
+/*               Main Section                      */
+/***************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************************************************/
+/*               Header                            */
+/***************************************************/
+
+
+
+
+
+
+
+
