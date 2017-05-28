@@ -75,13 +75,7 @@
 #mainsection section{
     display: inline-block;
 }
-#mainsection h2{
-    padding: 10px;
-}
-#mainsection h3{
-    padding: 10px;
-}
-#mainsection p{
+#mainsection h2,#mainsection h3,#mainsection p{
     padding: 10px;
 }
 
